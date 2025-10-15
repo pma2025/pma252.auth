@@ -3,8 +3,7 @@ package store.auth;
 import lombok.Builder;
 
 @Builder
-public record TokenOut (
-    String jwt
-) {
-    
+public record TokenOut(
+        String jwt) {
+
 }
